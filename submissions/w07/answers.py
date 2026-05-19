@@ -12,15 +12,15 @@ Format jawaban:
 from __future__ import annotations
 def q01() -> bool:
     """[T/F] Total luas di bawah kurva fungsi padat probabilitas (PDF) selalu sama dengan 1."""
-    raise NotImplementedError
+    return True
 
 def q02() -> bool:
     """[T/F] Distribusi Normal Standar memiliki mean 0 dan variansi 1."""
-    raise NotImplementedError
+    return True
 
 def q03() -> bool:
     """[T/F] Pada distribusi kontinu, P(X ) selalu sama dengan P(X )."""
-    raise NotImplementedError
+    return True
 
 def q04() -> str:
     """[MC] Nilai yang bersesuaian dengan nilai pada distribusi
@@ -31,7 +31,7 @@ A) (−)/
 B) (+)/
 C) /(−)
 D) −"""
-    raise NotImplementedError
+    return "A"
 
 def q05() -> str:
     """[MC] Distribusi mana yang sering digunakan untuk memodelkan waktu antar kejadian
@@ -41,7 +41,7 @@ A) Binomial.
 B) Normal.
 C) Eksponensial.
 D) Uniform."""
-    raise NotImplementedError
+    return "C"
 
 def q06() -> str:
     """[MC] Sekitar 95% data dalam distribusi Normal berada dalam rentang:
@@ -50,7 +50,7 @@ A)
 B) 2
 C) 3
 D) 0 1"""
-    raise NotImplementedError
+    return "B"
 
 def q07() -> str:
     """[MC] Jika = 0,5 pada distribusi Eksponensial, maka nilai harapannya adalah:
@@ -59,27 +59,27 @@ A) 0,5
 B) 2,0
 C) 1,0
 D) 0,25"""
-    raise NotImplementedError
+    return "B"
 
 def q08() -> float:
     """[Numeric] Jika (0,1), berapakah P( 0)?"""
-    raise NotImplementedError
+    return 0.5
 
 def q09() -> float:
     """[Numeric] Sebuah komponen memiliki rata-rata waktu hidup 100 jam (Eksponensial).
 Berapakah parameter -nya?"""
-    raise NotImplementedError
+    return 0.01
 
 def q10() -> float:
     """[Numeric] Nilai untuk probabilitas kumulatif 0,975 adalah sekitar... (Gunakan 2 desimal)"""
-    raise NotImplementedError
+    return 1.96
 
 def q11() -> float:
     """[Numeric] Jika X (10,4), berapakah nilai skor-Z untuk = 12?"""
-    raise NotImplementedError
+    return 1.0
 
 def q12() -> float:
     """[Numeric] Pada distribusi Normal Standar, berapakah nilai P( > 3) mendekati?
 (Gunakan 4 desimal)"""
-    raise NotImplementedError
+    return 0.0013
 

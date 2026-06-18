@@ -11,74 +11,75 @@ Format jawaban:
 """
 from __future__ import annotations
 def q01() -> bool:
-    """[T/F] Jika p-value lebih kecil dari tingkat signifikansi , maka kita gagal menolak hipotesis
-nol."""
-    raise NotImplementedError
+    """[T/F] Hipotesis nol (H0) biasanya merupakan pernyataan yang ingin kita buktikan
+kebenarannya."""
+    return False
 
 def q02() -> bool:
-    """[T/F] Galat Tipe I adalah kesalahan menolak padahal benar."""
-    raise NotImplementedError
+    """[T/F] Kesalahan Tipe I terjadi ketika kita menolak H0 padahal H0 benar."""
+    return True
 
 def q03() -> bool:
-    """[T/F] Meningkatkan ukuran sampel biasanya akan meningkatkan kekuatan uji (power)."""
-    raise NotImplementedError
+    """[T/F] P-value adalah probabilitas mendapatkan hasil sampel yang ekstrim jika H0
+benar."""
+    return True
 
 def q04() -> str:
-    """[MC] Nilai probabilitas yang menunjukkan kekuatan bukti melawan hipotesis nol disebut:
+    """[MC] Jika p-value < (tingkat signifikansi), maka keputusan kita adalah:
 
-A) Tingkat kepercayaan.
-B) p-value.
-C) Statistik uji.
-D) Parameter."""
-    raise NotImplementedError
+A) Gagal menolak H0.
+B) Menolak H0.
+C) Menolak H1.
+D) Menambah sampel."""
+    return 'B'
 
 def q05() -> str:
-    """[MC] Jika kita menguji = 50 vs 50, maka kita melakukan uji:
-0 1
+    """[MC] Pada uji satu arah (one-tailed) dengan H1 : > 0, daerah penolakan berada di:
 
-A) Satu arah (kanan).
-B) Satu arah (kiri).
-C) Dua arah.
-D) Tanpa arah."""
-    raise NotImplementedError
+A) Ekor kiri.
+B) Kedua ekor.
+C) Ekor kanan.
+D) Tengah distribusi."""
+    return 'C'
 
 def q06() -> str:
-    """[MC] Kondisi di mana kita menolak hipotesis nol padahal sebenarnya salah disebut:
+    """[MC] Tingkat signifikansi yang umum digunakan adalah:
 
-A) Keputusan yang benar (Power).
-B) Galat Tipe I.
-C) Galat Tipe II.
-D) Signifikansi."""
-    raise NotImplementedError
+A) 0,05
+B) 0,50
+C) 0,95
+D) 1,00"""
+    return 'A'
 
 def q07() -> str:
-    """[MC] Tingkat signifikansi yang umum digunakan dalam penelitian adalah:
+    """[MC] Kesalahan Tipe II terjadi jika:
 
-A) 0,5
-B) 0,05
-C) 0,95
-D) 1,0"""
-    raise NotImplementedError
+A) Menolak H0 yang benar.
+B) Gagal menolak H0 yang salah.
+C) Menolak H1 yang benar.
+D) P-value terlalu kecil."""
+    return 'B'
 
 def q08() -> float:
-    """[Numeric] Jika statistik uji = 2,58 dan nilai kritis c = 1,96 untuk uji dua arah, apakah 0
-ditolak? (Tulis 1 untuk Ya, 0 untuk Tidak)"""
-    raise NotImplementedError
+    """[Numeric] Jika = 0,05 dan p-value = 0,03, berikan angka 1 jika kita menolak H0, dan
+0 jika tidak."""
+    return 1.0
 
 def q09() -> float:
-    """[Numeric] Berapakah nilai jika tingkat kepercayaan adalah 99%?"""
-    raise NotImplementedError
+    """[Numeric] Berapakah probabilitas Kesalahan Tipe I jika kita menggunakan = 0,01?"""
+    return 0.01
 
 def q10() -> float:
-    """[Numeric] Dalam uji t dengan sampel n = 10, berapakah derajat kebebasannya?"""
-    raise NotImplementedError
+    """[Numeric] Dalam uji Z, jika statistik uji Z = 2,33 dan Z kritis = 1,96, berikan angka 9
+untuk "Tolak H0" dan 0 untuk "Gagal Tolak H0"."""
+    return 9.0
 
 def q11() -> float:
-    """[Numeric] Jika p-value = 0,02 dan = 0,05, apakah kita menolak 0? (Tulis 1 untuk Ya, 0
-untuk Tidak)"""
-    raise NotImplementedError
+    """[Numeric] Jika H0 : = 100 dan H1 : 100, berapa banyak ekor (tails) dalam uji
+ini?"""
+    return 1.0
 
 def q12() -> float:
-    """[Numeric] Jika statistik = 0, berapakah p-value untuk uji dua arah?"""
-    raise NotImplementedError
-
+    """[Numeric] Jika p-value = 0,12 dan = 0,05, berikan angka 1 jika kita menolak H0,
+dan 0 jika tidak."""
+    return 1.0

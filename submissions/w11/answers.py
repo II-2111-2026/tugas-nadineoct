@@ -11,78 +11,75 @@ Format jawaban:
 """
 from __future__ import annotations
 def q01() -> bool:
-    """[T/F] Semakin tinggi tingkat kepercayaan yang diinginkan, semakin lebar interval
-kepercayaan yang dihasilkan."""
-    raise NotImplementedError
+    """[T/F] Interval kepercayaan memberikan rentang nilai yang mungkin mengandung
+parameter populasi dengan tingkat keyakinan tertentu."""
+    return True
 
 def q02() -> bool:
-    """[T/F] Interval kepercayaan 95% berarti ada peluang 95% bahwa parameter populasi
-berada dalam rentang tersebut untuk satu interval yang sudah dihitung."""
-    raise NotImplementedError
+    """[T/F] Semakin tinggi tingkat kepercayaan (misal dari 95% ke 99%), maka lebar interval
+kepercayaan akan semakin sempit."""
+    return False
 
 def q03() -> bool:
-    """[T/F] Distribusi t-Student mendekati distribusi Normal saat derajat kebebasan () menjadi
-sangat besar."""
-    raise NotImplementedError
+    """[T/F] Margin of Error dipengaruhi oleh ukuran sampel dan variabilitas data."""
+    return True
 
 def q04() -> str:
-    """[MC] Jika kita ingin mempersempit interval kepercayaan tanpa mengubah tingkat
-kepercayaan, kita harus:
-
-A) Mengurangi ukuran sampel.
-B) Meningkatkan ukuran sampel.
-C) Meningkatkan simpangan baku.
-D) Tidak melakukan apa-apa."""
-    raise NotImplementedError
-
-def q05() -> str:
-    """[MC] Nilai kritis untuk tingkat kepercayaan 95% adalah:
+    """[MC] Nilai kritis Z untuk tingkat kepercayaan 95% adalah sekitar:
 
 A) 1,645
 B) 1,96
-C) 2,58
+C) 2,576
 D) 1,00"""
-    raise NotImplementedError
+    return 'B'
+
+def q05() -> str:
+    """[MC] Jika kita ingin memperkecil interval kepercayaan tanpa mengubah tingkat
+kepercayaan, kita harus:
+
+A) Memperkecil ukuran sampel.
+B) Memperbesar ukuran sampel.
+C) Mengabaikan data outlier.
+D) Menggunakan distribusi t."""
+    return 'B'
 
 def q06() -> str:
-    """[MC] Derajat kebebasan () untuk interval kepercayaan rata-rata satu sampel berukuran
-n adalah:
+    """[MC] Interval kepercayaan 90% untuk rata-rata dihitung menggunakan rumus:
 
-A) n
-B) n+1
-C) n−1
-D) n/2"""
-    raise NotImplementedError
+A) X Z / n
+B) X t / n
+C) X Z / n
+D) X + Z """
+    return 'C'
 
 def q07() -> str:
     """[MC] Estimasi titik terbaik untuk rata-rata populasi adalah:
 
 A) Median sampel.
 B) Modus sampel.
-C) Rata-rata sampel ( X).
-D) Standar deviasi sampel."""
-    raise NotImplementedError
+C) Rata-rata sampel (X ).
+D) Rentang sampel."""
+    return 'C'
 
 def q08() -> float:
-    """[Numeric] Jika X = 100, Margin Error = 5, berapakah batas bawah interval
-kepercayaan?"""
-    raise NotImplementedError
+    """[Numeric] Jika rata-rata sampel adalah 100 dan Margin of Error adalah 5, berapakah
+batas bawah interval kepercayaan tersebut?"""
+    return 95.0
 
 def q09() -> float:
-    """[Numeric] Untuk sampel n = 16 dan simpangan baku sampel = 4, berapakah nilai
-estimasi Standard Error-nya?"""
-    raise NotImplementedError
+    """[Numeric] Hitung lebar interval jika batas bawah 10 dan batas atas 12."""
+    return 1.0
 
 def q10() -> float:
-    """[Numeric] Berapakah derajat kebebasan jika ukuran sampel adalah 25?"""
-    raise NotImplementedError
+    """[Numeric] Jika n = 100 dan simpangan baku 20, berapakah nilai ( / n)?"""
+    return 24.0
 
 def q11() -> float:
-    """[Numeric] Jika interval kepercayaan adalah , berapakah nilai estimasi titik rata-ratanya?"""
-    raise NotImplementedError
+    """[Numeric] Berapakah nilai tengah (point estimate) jika interval kepercayaan adalah
+[40, 60]?"""
+    return 50.0
 
 def q12() -> float:
-    """[Numeric] Jika margin error adalah 2 dan nilai kritis = 2, berapakah Standard Error-
-nya?"""
-    raise NotImplementedError
-
+    """[Numeric] Jika Margin of Error adalah 2, berapa lebar total interval kepercayaan
+tersebut?"""
+    return 1.0

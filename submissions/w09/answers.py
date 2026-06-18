@@ -13,7 +13,7 @@ from __future__ import annotations
 def q01() -> bool:
     """[T/F] Jika korelasi antara dua variabel adalah nol, maka kedua variabel tersebut pasti
 independen."""
-    return
+    return False
 
 def q02() -> bool:
     """[T/F] PDF marginal () didapatkan dengan mengintegralkan (,) terhadap dari − ke .
